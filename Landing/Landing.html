@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/landing.css" type="text/css"/>
+    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>-->
+    <script src="scripts/jquery.bxslider.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider1').bxSlider({
+                    slideWidth: 315,
+                    minSlides: 2,
+                    maxSlides: 4,
+                    slideMargin: 5,
+                    moveSlides: 1,
+                    auto:true
+                });
+                $('.category a').click(function(){
+                    $('.category a').removeClass('active');
+                    $(this).addClass('active');
+                });
+            });
+
+    </script>
+</head>
+<body>
+    <div class="whtclr">
+	<!-- Header Start -->
+    <div class="header">
+	<div class="header_menu">
+    <div>
+ <div class="col-lg-offset-1 col-xs-offset-1 col-lg-6 col-md-5 col-sm-6 col-xs-11">
+<img src="" class="logo" title=""/>
+         <input type="text" name="" value="" class="col-lg-8 col-md-8 col-sm-8 col-xs-8 mrglft20 searchtxt" placeholder="Search for the events"/><span class="serachspan"><i class="glyphicon glyphicon-search"></i></span>
+ </div>
+        <div class="col-lg-offset-0 col-xs-offset-1 col-lg-4 col-md-5 col-sm-6 col-xs-11 menu">
+<a>About Us</a>
+            <a>Print Ticket</a>
+            <a>Create Event</a>
+            <a>Login/SignUp?</a>
+        </div>
+    </div>
+    <div class="landtemp col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="slider1">
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+            <div class="slide col-lg-3 col-md-3 col-sm-3 col-xs-3 padlftrgt5"><p></p></div>
+        </div>
+
+
+
+    </div>
+</div>
+        <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-11 col-md-11 col-sm-11 col-xs-11 category">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="menusadj">
+                <label class="mrglft2p">Categories :</label>   <!--col-lg-1 col-md-1 col-sm-2 col-xs-2-->
+                <a class="active">All Events</a>
+                <a>Conferences</a>
+                <a>Symposiums</a>
+                <a>Workshops</a>
+                <a>Seminars</a>
+                <a>Contests</a>
+                <a>Exibtions</a>
+                <a>Jobfairs</a>
+                <a>Meetups</a>
+                </div>
+                <div class="divfilter filter">
+                    <a class="" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#FilterModal">Filter<img src="images/filter.png" class="filterimg"/></a>
+                </div>
+
+                <!-- Modal -->
+                <!-- Modal -->
+                <div class="modal fade filtermodal" id="FilterModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Filter Options</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mrgbtm20">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <p>SELECT STATE/UT</p>
+                                        <select>
+                                            <option>Andhra Pradesh</option>
+                                            <option>Andhra Pradesh</option>
+                                            <option>Andhra Pradesh</option>
+                                            <option>Andhra Pradesh</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <p>SELECT DISTRICT</p>
+                                        <select>
+                                            <option>Anantapur</option>
+                                            <option>Anantapur</option>
+                                            <option>Anantapur</option>
+                                            <option>Anantapur</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <p>COURSE CATEGORY</p>
+                                        <select>
+                                            <option>Arts & Science</option>
+                                            <option>Arts & Science</option>
+                                            <option>Arts & Science</option>
+                                            <option>Arts & Science</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mrgbtm20">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <p>EVENT TYPE</p>
+                                        <select>
+                                            <option>Free Entrance</option>
+                                            <option>Free Entrance</option>
+                                            <option>Free Entrance</option>
+                                            <option>Free Entrance</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                        <p>EVENT DAY/DATE</p>
+                                        <select>
+                                            <option>Tomorrow</option>
+                                            <option>Tomorrow</option>
+                                            <option>Tomorrow</option>
+                                            <option>Tomorrow</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                            <p>START DATE</p>
+                                            <input type="date" name="" value=""/>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                            <p>END DATE</p>
+                                            <input type="date" name="" value=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modalfilter" data-dismiss="modal">Apply Filter</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+		
+	<!-- Header End -->
+	
+	<!-- Category Start -->
+	
+
+	</div>
+	
+	<!-- Category End -->
+	<!-- Content Start -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mrgtop15">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 content">
+                <div class="marauto">
+                <!-- First Start -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+					<div>
+					<p></p>
+					</div>
+                    <div class="contspace">
+                    <p>08 February, Mumbai</p>
+                        <p>International Conference On Data Analytics</p>
+                        <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                        <p>ENGINEERING</p>
+                        <img src=""/>
+                        <label class="pull-right "><p>10+</p></label>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+                  	<div>
+					<p></p>
+					</div>
+                    <div class="contspace">
+                        <p>08 February, Mumbai</p>
+                        <p>International Conference On Data Analytics</p>
+                        <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                        <p>ENGINEERING</p>
+                        <img src=""/>
+                        <label class="pull-right"><p>10+</p></label>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+                  	<div>
+					<p></p>
+					</div>
+                    <div class="contspace">
+                        <p>08 February, Mumbai</p>
+                        <p>International Conference On Data Analytics</p>
+                        <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                        <p>ENGINEERING</p>
+                        <img src=""/>
+                        <label class="pull-right"><p>10+</p></label>
+                    </div>
+                    </div>
+                </div>
+               <!--<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 paddtopbtm10">
+                    <div class="contborder">
+                  	<div>
+					<p></p>
+					</div>
+                    <div class="contspace">
+                        <p>08 February, Mumbai</p>
+                        <p>International Conference On Data Analytics</p>
+                        <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                        <p>ENGINEERING</p>
+                        <img src=""/>
+                        <label class="pull-right">10+</label>
+                    </div>
+                    </div>
+                </div>-->
+                    </div>
+                <!-- First End -->
+                <!-- Second Start -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+                     	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right"><p>10+</p></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+                       	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right"><p>10+</p></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+                      	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right"><p>10+</p></label>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                <!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 paddtopbtm10">
+                    <div class="contborder">
+                        	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right">10+</label>
+                        </div>
+                    </div>
+                </div>-->
+                <!-- Second End -->
+                <!-- Third Start -->
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 paddtopbtm10">
+                    <div class="adscroll">
+					<div class="adscrolldiv">
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    </div>
+					</div>
+                    <div class="container demo-1">
+
+
+                        <div class="main">
+
+                            <!-- Elastislide Carousel -->
+                            <ul id="carousel" class="elastislide-list">
+                                <li><a href="#"><img src="images/small/1.jpg" alt="image01" /></a></li>
+                                <li><a href="#"><img src="images/small/2.jpg" alt="image02" /></a></li>
+                                <li><a href="#"><img src="images/small/3.jpg" alt="image03" /></a></li>
+                                <li><a href="#"><img src="images/small/4.jpg" alt="image04" /></a></li>
+                                <li><a href="#"><img src="images/small/5.jpg" alt="image05" /></a></li>
+                                <li><a href="#"><img src="images/small/6.jpg" alt="image06" /></a></li>
+                                <li><a href="#"><img src="images/small/7.jpg" alt="image07" /></a></li>
+                                <li><a href="#"><img src="images/small/8.jpg" alt="image08" /></a></li>
+                                <li><a href="#"><img src="images/small/9.jpg" alt="image09" /></a></li>
+                                <li><a href="#"><img src="images/small/10.jpg" alt="image10" /></a></li>
+                                <li><a href="#"><img src="images/small/11.jpg" alt="image11" /></a></li>
+                                <li><a href="#"><img src="images/small/12.jpg" alt="image12" /></a></li>
+                                <li><a href="#"><img src="images/small/13.jpg" alt="image13" /></a></li>
+                                <li><a href="#"><img src="images/small/14.jpg" alt="image14" /></a></li>
+                                <li><a href="#"><img src="images/small/15.jpg" alt="image15" /></a></li>
+                                <li><a href="#"><img src="images/small/16.jpg" alt="image16" /></a></li>
+                                <li><a href="#"><img src="images/small/17.jpg" alt="image17" /></a></li>
+                                <li><a href="#"><img src="images/small/18.jpg" alt="image18" /></a></li>
+                                <li><a href="#"><img src="images/small/19.jpg" alt="image19" /></a></li>
+                                <li><a href="#"><img src="images/small/20.jpg" alt="image20" /></a></li>
+                            </ul>
+                            <!-- End Elastislide Carousel -->
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Third End -->
+                <!-- Fourth Start -->
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+                      	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right"><p>10+</p></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12 ">
+                    <div class="contborder">
+                       	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right"><p>10+</p></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 paddtopbtm10 paddlr12">
+                    <div class="contborder">
+                        	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right"><p>10+</p></label>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 paddtopbtm10">
+                    <div class="contborder">
+                       	<div>
+					<p></p>
+					</div>
+                        <div class="contspace">
+                            <p>08 February, Mumbai</p>
+                            <p>International Conference On Data Analytics</p>
+                            <p>Printing and typesetting industry lorem and ipsum has been the indus try's eversincering printer typeset eversinceing...</p>
+                            <p>ENGINEERING</p>
+                            <img src=""/>
+                            <label class="pull-right"><p>10+</p></label>
+                        </div>
+                    </div>
+                </div>-->
+                    </div>
+                <!-- Fourth End -->
+                <!-- More Evets Start -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 moreevents">
+                    <a>More Events</a>
+                </div>
+                </div>
+                <!-- More Events End -->
+                            </div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+
+            </div>
+        </div>
+        <!-- Content End -->
+        <!-- Subscribe Start -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 subscribe text-center">
+            <p>Subscribe to get the Events Notification Instanly</p>
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                <input type="text" name="Email" value="" placeholder="Enter Your Email"/>
+                <button>Subscribe </button>
+            </div>
+        </div>
+        <!-- Subscribe End -->
+
+        <!-- Categories Bottom Start -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 catgbtm">
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 ">
+                <label class="mrglft4p">Categories :</label>  <!--col-lg-1 col-md-1 col-sm-1 col-xs-1-->
+                <a>Browse By Categories</a>
+                <a>About Us</a>
+                <a>Pricing</a>
+                <a>Print Ticket</a>
+                <a>Jobs@Event</a>
+                <a>News and Updates</a>
+                <a>Blog</a>
+                <a>FAQ</a>
+                <a>Contact Us</a>
+            </div>
+      </div>
+      <!-- Categories Bottom End --><!-- Copyrights Start -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 copyrights">
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 col-lg-11 col-md-11 col-sm-11 col-xs-11 nopaddlr">
+                <a class="nopaddlr mrglft4p">Copyrights@events.com</a>
+                <a>Terms and Conditions</a>
+                <a>Privacy Policy</a>
+                <a>Follow Us On:</a>
+                <img src="images/facebook.png" title="Facebbok"/>
+                <img src="images/twitter.png" title="Twitter"/>
+                <img src="images/instagram.png" title="Instagram"/>
+                <img src="images/youtube.png" title="YouTube"/>
+            </div>
+        </div>
+        <!-- Copyrights End -->
+    </div>
+
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+    <script type="text/javascript" src="scripts/jquerypp.custom.js"></script>
+    <script type="text/javascript" src="scripts/jquery.elastislide.js"></script>
+    <script type="text/javascript">
+
+        $( '#carousel' ).elastislide();
+
+    </script>
+</body>
+</html>
